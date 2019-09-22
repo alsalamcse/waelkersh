@@ -9,6 +9,6 @@ public class project11 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_project11);
-        //;lm,lkmlm
+        //;
     }
 }
