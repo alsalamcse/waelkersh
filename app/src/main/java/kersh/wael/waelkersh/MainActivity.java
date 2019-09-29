@@ -1,6 +1,7 @@
 package kersh.wael.waelkersh;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         if ((item.getItemId()==R.id.itrmynet)){
             Toast.makeText(this ,"ynet",Toast.LENGTH_SHORT ).show();;
 
-        }
+            Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ynet.co.il"));     }
 
 
     return true;
