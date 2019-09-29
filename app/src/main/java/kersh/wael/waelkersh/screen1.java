@@ -3,7 +3,7 @@ package kersh.wael.waelkersh;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class project11 extends AppCompatActivity {
+public class screen1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
